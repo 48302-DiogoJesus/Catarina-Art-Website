@@ -1,0 +1,16 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_3" height="640.99998" width="858.00001" y="-15.99998" x="-37.00001" stroke="#000" fill="#300303"/>
+  <g id="svg_4">
+   <rect fill="#ffffff" stroke="#000" x="200.00001" y="169.00001" width="400" height="30" id="svg_7" rx="30" filter="url(#svg_7_blur)"/>
+   <rect fill="#ffffff" stroke="#000" x="200.00001" y="285.00001" width="400" height="30" id="svg_1" rx="30" filter="url(#svg_7_blur)"/>
+   <rect fill="#ffffff" stroke="#000" x="200.00001" y="405.00001" width="400" height="30" id="svg_2" rx="30" filter="url(#svg_7_blur)"/>
+  </g>
+ </g>
+ <defs>
+  <filter id="svg_7_blur" x="-50%" y="-50%" width="200%" height="200%">
+   <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+  </filter>
+ </defs>
+</svg>

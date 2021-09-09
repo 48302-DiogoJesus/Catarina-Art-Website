@@ -1,0 +1,20 @@
+:root {
+  --backcolor: #6d0505;
+  --hdrcolor: #300303;
+  --txt-color: #f37120;
+}
+
+body {
+  background: var(--backcolor);
+  color: var(--txt-color);
+}
+
+.header-title {
+  background: linear-gradient(to right, #f37120 5%, #4c0303 55%, #f37120 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  animation: color-change 3s linear infinite;
+}

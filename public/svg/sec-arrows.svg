@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect filter="url(#svg_7_blur)" transform="rotate(29, 272.677, 211.74)" rx="30" id="svg_7" height="30" width="400" y="196.73963" x="72.67684" stroke="#000" fill="#ffffff"/>
+  <rect filter="url(#svg_8_blur)" transform="rotate(-29, 268.403, 401.356)" rx="30" id="svg_8" height="30" width="400" y="386.35646" x="68.40277" stroke="#000" fill="#ffffff"/>
+  <rect filter="url(#svg_1_blur)" transform="rotate(29, 530.677, 211.74)" rx="30" id="svg_1" height="30" width="400" y="196.73963" x="330.67684" stroke="#000" fill="#ffffff"/>
+  <rect filter="url(#svg_2_blur)" transform="rotate(-29, 530.403, 400.356)" rx="30" id="svg_2" height="30" width="400" y="385.35646" x="330.40277" stroke="#000" fill="#ffffff"/>
+ </g>
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_7_blur">
+   <feGaussianBlur stdDeviation="5" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur">
+   <feGaussianBlur stdDeviation="5" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_2_blur">
+   <feGaussianBlur stdDeviation="5" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_8_blur">
+   <feGaussianBlur stdDeviation="5" in="SourceGraphic"/>
+  </filter>
+ </defs>
+</svg>

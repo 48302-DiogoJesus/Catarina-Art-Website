@@ -1,0 +1,31 @@
+:root {
+  --backcolor: #263238;
+  --hdrcolor: #75edad;
+  --txt-color: lightblue;
+}
+
+body {
+  background: var(--backcolor);
+  color: var(--txt-color);
+}
+
+.header-title {
+  background: linear-gradient(
+    to right,
+    #1c2022 5%,
+    lightblue 40%,
+    #1c2022 55%,
+    lightblue 68%,
+    #1c2022 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  animation: color-change 3s linear infinite;
+}
+.main-page-button a {
+  border: 1px solid #465861;
+  color: #465861;
+}

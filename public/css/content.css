@@ -1,0 +1,13 @@
+:root {
+  --backcolor: rgb(136, 9, 9);
+}
+
+.slideshow .image {
+  width: 500px;
+  max-height: 700px;
+  object-fit: cover;
+}
+
+.text-info {
+  margin: 0;
+}
