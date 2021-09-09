@@ -6,7 +6,7 @@
 */
 
 const fs = require('fs')
-
+const cors  = require('cors')
 const express = require('express');
 const app = express(); 
 
@@ -14,6 +14,7 @@ const port = process.env.PORT || 80;
 
 app.use(express.static('public'))
 app.use(express.json())
+app.use(cors())
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/views/index.html')
