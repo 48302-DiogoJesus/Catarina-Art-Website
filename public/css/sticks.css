@@ -29,3 +29,7 @@ body {
   border: 1px solid #465861;
   color: #465861;
 }
+
+.text-paragraph {
+  text-align: left;
+}

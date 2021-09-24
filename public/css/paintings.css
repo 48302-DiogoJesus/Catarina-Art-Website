@@ -18,3 +18,7 @@ body {
   -moz-text-fill-color: transparent;
   animation: color-change 3s linear infinite;
 }
+
+.text-paragraph {
+  text-align: left;
+}

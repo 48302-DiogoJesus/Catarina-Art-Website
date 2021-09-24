@@ -17,8 +17,6 @@ const aboutArtistButton = document.getElementsByClassName('about-the-artist')[0]
 
 var currentImage = 0
 const FOTOS_NUM = 7
-
-mainImageTitle.innerText = imagesTitle[0].innerText
 updateBorder('')
 
 var i = 0
