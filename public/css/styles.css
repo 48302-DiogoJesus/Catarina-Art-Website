@@ -506,7 +506,8 @@ svg circle {
 
   .main-image-container {
     flex-direction: column;
-    min-height: 80vh;
+    height: 100%;
+    margin: 20px 0;
   }
   .main-image-container img {
     max-height: 600px;
