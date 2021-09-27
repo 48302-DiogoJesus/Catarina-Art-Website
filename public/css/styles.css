@@ -506,11 +506,11 @@ svg circle {
 
   .main-image-container {
     flex-direction: column;
-    height: 100vh;
+    min-height: 80vh;
   }
   .main-image-container img {
     max-height: 600px;
-    max-width: 98%;
+    max-width: 91%;
   }
   .main-image-container #prev-button {
     margin-bottom: 30px;
